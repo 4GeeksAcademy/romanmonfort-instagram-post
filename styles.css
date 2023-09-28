@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://us.123rf.com/450wm/nop2000/nop20001307/nop2000130700207/21433156-vintage-fondo-de-hormig%C3%B3n-liso-blanco.jpg?ver=6");
+    background-size:contain;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.post{
+  background-color: aliceblue;
+  width: 500px;
+  height: auto;
+  margin-left: 500px;
+}
+
+.post-user {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  height: 80px;
+}
+
+.post-user > img {
+  border-radius: 60px;
+display: flex;
+width: 50px;
+height: 50px;
+margin-left: 10px;
+}
+.user-info{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 0;
+}
+.user-info > h1{
+  margin: 0;
+}
+
+.user-info > p{
+  margin-top: 1px;
+}
+
+
+.points {
+  margin-left: 230px;
+  font-size: 50px;
+}
+
+.post-image > img{
+  width: 500px;
+  height: auto;
+}
+.post-icons{
+  display: flex;
+  margin-left: 5px;
+}
+.post-icons > i {
+  margin-left: 5px;
+}
+.post-icons > .bi-bookmark{
+  margin-left: 400px;
+}
+.post-comment{
+  margin-left: 5px;
+  padding-bottom: 1px;
+}
+
+.post-icons> i:hover{
+  color: red;
+}
+.post-icons > .bi-bookmark:hover{
+ color: yellow;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  background-color: ;
+}
